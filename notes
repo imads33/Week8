@@ -84,3 +84,107 @@ In a non-linear data structure, we can’t traverse all the elements in a single
 Examples
 1.trees
 2.graphs.
+
+Collection Framework
+what is Framework
+1.Readymade Architecture
+2.It Provides set of classes and interfaces
+ 
+Collection:
+ 
+it represents group of objects in a single unit
+ 
+Eample:
+School bag
+list of students in college
+set of employess in company
+set of programs in drive
+list of tasks in queue
+ 
+operation:
+insertion
+searching
+deletion
+display
+traversing
+update
+ 
+Iterable->Collection->(Interfaces)
+                List
+                Queue
+                Set
+to store collection of objects(what type of data)
+both similar data and as well as different data(homogeneous,hetrogeneous)
+ 
+Wrapper classes(coverting primitive data to objetcs--boxing and covert objetcs to primitive data --unboxing)
+int----Integer
+float--Float
+char-Char
+double--Double
+long---Long
+byte---Byte
+ 
+List:
+it is used to store collection objects
+It allows to store duplicate data also
+Its dynamic nature
+It follows the insertion order
+indexed
+multiple null values
+ 
+Queue:
+it is used to store collection objects
+It allows to store duplicate data also
+Its dynamic nature
+It follows the insertion order but except priority queue
+indexed
+multiple null values
+ 
+Set:
+it is used to store collection objects
+It allows to store unique data 
+Its dynamic nature
+It does not follows the insertion order
+not indexed
+only one null value
+------------------------------------------------------------------
+ 
+List Interface:
+Implemented classes
+1.ArrayList
+2.LinkedList
+3.Vector
+4.Stack
+-----------------------------------------------------------
+Queue Interface:
+1.Priority Queue
+ 
+Deque Interface
+1.ArrayDeque
+------------------------------------------------------------
+Set Inteface
+ 
+1.HashSet
+2.LinkedHashSet
+ 
+SortedSet Interface
+1.TreeSet
+ 
+--------------------------------------------------------------------------------
+List:
+ 
+ArrayList
+ArrayList uses Dynamic array to store the data
+it is used to store collection objects
+It allows to store duplicate data also
+Its dynamic nature
+It follows the insertion order
+indexed
+multiple null values
+ 
+Sytax:
+int a[]=new int[]
+ 
+List list=new ArrayList();
+or
+ArrayList list=new ArrayList();
