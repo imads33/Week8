@@ -1,0 +1,86 @@
+
+DataStructure :-
+It is a way of arranging data on a computer so that it can be accessed and updated efficiently.
+
+Types :
+
+1.Linear data structure:
+------------------------
+Data structure in which data elements are arranged sequentially or linearly, 
+where each element is attached to its previous and next adjacent elements, is called a linear data structure. 
+
+Examples of linear data structures are 
+1.array, 
+2.stack, 
+3.queue, 
+4.linked list
+
+Static data structure:
+---------------------- 
+Static data structure has a fixed memory size. 
+It is easier to access the elements in a static data structure. 
+
+An example  
+1.array.
+
+operations:
+insert,delete,search etc.
+
+Dynamic data structure:
+----------------------- 
+In dynamic data structure, the size is not fixed. 
+It can be randomly updated during the runtime 
+which may be considered efficient concerning the memory (space) complexity of the code. 
+
+Examples 
+1.queue, 
+2.stack,
+3.linked list
+
+Queue
+-----
+->follows Fisrt in first out(FIFO) rule.
+->has two sides front and rear
+->insertion ad rear and deletion at front
+->Oprations
+enqueue
+dequeue
+isfull
+isempty
+
+stack
+-----
+-> follows last in first out(LIFO) or Fisrt in Last out rule
+-> has one side
+-> insertion and deletione at same side
+->Oprations
+insert 
+delete
+isfull
+isempty
+
+linked list
+-----------
+->collection of nodes
+-> 4 types - single linked list and double linked list,circuler SLL circular DLL
+
+single linked list:
+-> each node has 2 fields---data and address
+-> data stores actual data/value
+-> address stores the location/address of next data/value
+
+double linked list:
+-> each node has 3 fields---data and address(2)
+-> data stores actual data/value
+-> address stores the location/address of next and previous data/value
+
+
+--------------------------
+Non-linear data structure:
+--------------------------
+Data structures where data elements are not placed sequentially or linearly are called non-linear data structures.
+In a non-linear data structure, we can’t traverse all the elements in a single run only. 
+
+Examples
+1.trees
+2.graphs.
