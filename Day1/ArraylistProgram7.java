@@ -28,6 +28,7 @@ public class ArraylistProgram7 {
         colors.addAll(1, newlist);
         System.out.println(colors);
 
-        Collections.emptyList();
+        newlist.clear();
+    
     }
 }
