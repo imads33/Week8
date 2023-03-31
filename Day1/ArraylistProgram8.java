@@ -38,6 +38,7 @@ class ArraylistProgram8 {
 
         number.clear();
         System.out.println(number);
+
         int i = 0;
         for (Integer num : numbers) {
             if (i < 3) {

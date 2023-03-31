@@ -1,4 +1,3 @@
-
 /*
 Write a Java program of swap two elements in an array list.
 Write a Java program to join two array lists.
